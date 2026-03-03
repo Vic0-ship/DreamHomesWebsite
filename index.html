@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DreamHomes Limited</title>
+<style>
+  /* General styles */
+  body { font-family: 'Arial', sans-serif; margin:0; padding:0; line-height:1.6; color:#333; }
+  a { text-decoration:none; color:#004080; }
+  h1,h2,h3 { margin:10px 0; }
+  img { max-width:100%; display:block; }
+
+  /* Header */
+  header { background:#004080; color:white; display:flex; justify-content:space-between; align-items:center; padding:15px 20px; flex-wrap:wrap; }
+  header img { height:60px; }
+  nav a { margin-left:15px; font-weight:bold; color:white; }
+  nav { display:flex; align-items:center; flex-wrap:wrap; }
+
+  /* Hero Section */
+  .hero { text-align:center; background:#004080; color:white; padding:60px 20px; }
+  .hero h1 { font-size:2.5em; margin-bottom:15px; }
+  .hero p { font-size:1.2em; margin-bottom:20px; }
+  .hero .btn { background:#f0a500; color:white; padding:12px 25px; border-radius:5px; font-weight:bold; }
+
+  /* Sections */
+  section { padding:50px 20px; max-width:1000px; margin:auto; }
+  .about, .ceo, .contact { text-align:center; background:#f4f4f4; margin-bottom:20px; }
+  .about img, .ceo img { width:150px; height:150px; border-radius:50%; margin-bottom:15px; object-fit:cover; }
+
+  /* Properties */
+  .properties { text-align:center; }
+  .property-list { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+  .property { border:1px solid #ddd; width:300px; border-radius:5px; overflow:hidden; background:white; }
+  .property img { height:200px; object-fit:cover; }
+  .property h3 { padding:10px; }
+  .property p { padding:0 10px 10px 10px; }
+
+  /* Investments table */
+  table { width:90%; margin:auto; border-collapse:collapse; margin-top:20px; }
+  th, td { border:1px solid #ddd; padding:10px; text-align:center; }
+  th { background:#004080; color:white; }
+
+  /* Contact */
+  .contact ul { list-style:none; padding:0; }
+  .contact li { margin-bottom:10px; }
+
+  /* Footer */
+  footer { text-align:center; padding:15px; background:#004080; color:white; }
+
+  /* Responsive */
+  @media(max-width:768px) {
+    .property-list { flex-direction:column; align-items:center; }
+    nav { justify-content:center; margin-top:10px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <img src="logo.png" alt="DreamHomes Logo">
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#ceo">CEO</a>
+    <a href="#properties">Properties</a>
+    <a href="#investments">Investments</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="hero" class="hero">
+  <h1>Welcome to DreamHomes Limited</h1>
+  <p>Your trusted partner in finding and investing in premium properties.</p>
+  <a href="#properties" class="btn">Explore Our Properties</a>
+</section>
+
+<!-- About Us -->
+<section id="about" class="about">
+  <h2>About DreamHomes Limited</h2>
+  <img src="logo.png" alt="DreamHomes Logo">
+  <p>DreamHomes Limited has been helping people find their dream homes for over 10 years. We specialize in connecting buyers and investors with high-quality properties, from cozy family homes to luxurious estates.</p>
+  <p>Our mission is simple: to provide a seamless, transparent, and stress-free experience for anyone looking to buy, sell, or invest in real estate. We combine expert market knowledge, a passion for excellence, and a commitment to customer satisfaction to make your real estate journey smooth and rewarding.</p>
+  <p>Whether you are a first-time homebuyer, an experienced investor, or someone looking for a lifetime home, DreamHomes Limited is here to guide you every step of the way.</p>
+</section>
+
+<!-- CEO -->
+<section id="ceo" class="ceo">
+  <h2>About Our CEO</h2>
+  <img src="ceo.jpg" alt="CEO Image">
+  <p>Jane Doe, our visionary CEO, is a seasoned real estate expert with over 15 years of experience in property development and investment. She graduated with a degree in Real Estate Management from Social University and has completed advanced certifications in property investment strategy.</p>
+  <p>Jane’s leadership is defined by integrity, innovation, and a relentless commitment to client satisfaction. She has personally overseen hundreds of property transactions, ensuring that every client finds the perfect home or investment opportunity.</p>
+  <p>Passionate about transforming the real estate landscape, Jane continuously explores new technologies and strategies to make property buying and investing smarter, simpler, and more accessible for everyone.</p>
+</section>
+
+<!-- Properties -->
+<section id="properties" class="properties">
+  <h2>Our Properties</h2>
+  <div class="property-list">
+    <div class="property">
+      <img src="house1.jpg" alt="Cozy two-story Bungalow">
+      <h3>Cozy two-story bungalow</h3>
+      <p>Location: Texas</p>
+      <p>This stunning luxury bungalow offers 4 bedrooms, 4 bathrooms, a modern kitchen, and a beautiful backyard perfect for family living. Its elegant design combines comfort with style.</p>
+    </div>
+    <div class="property">
+      <img src="house2.jpg" alt="Modern Home">
+      <h3>Modern Home</h3>
+      <p>Location: Tennis</p>
+      <p>A sleek modern apartment with 3 bedrooms, 2 bathrooms, and an open-concept living area and a massive pool. Located in the heart of the city, it provides convenience and luxury at the same time.</p>
+    </div>
+    <div class="property">
+      <img src="house3.jpg" alt="Cozy Bungalow">
+      <h3>Cozy Bungalow</h3>
+      <p>Location: Dallas</p>
+      <p>This cozy bungalow is perfect for a small family, offering 2 bedrooms, a spacious living area, and a warm, welcoming ambiance. Enjoy quiet streets and a charming neighborhood.</p>
+    </div>
+   <div class="property">
+      <img src="house4.jpg" alt="Luxury Mansion">
+      <h3>Luxury Mansion</h3>
+      <p>Location: Miami</p>
+      <p>This stunning mansion features 6 bedrooms, 5 bathrooms, a pool, and a breathtaking view of the city.</p>
+   </div>
+  </div>
+</section>
+
+<!-- Investments -->
+<section id="investments">
+  <h2>Investment Properties</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Location</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Luxury Villa</td><td>Texas</td><td>$500,000</td></tr>
+      <tr><td>Modern Apartment</td><td>Tennis</td><td>$250,000</td></tr>
+      <tr><td>Cozy Bungalow</td><td>Dallas</td><td>$300,000</td></tr>
+      <tr><td>Penthouse Suite</td><td>Houston</td><td>$600,000</td></tr>
+      <tr><td>Beachfront Condo</td><td>Galveston</td><td>$400,000</td></tr>
+      <tr><td>Suburban Townhouse</td><td>Austin</td><td>$350,000</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <ul>
+    <li>Email: <a href="mailto:torries088@gmail.com">torries088@gmail.com</a></li>
+    <li>WhatsApp: <a href="https://wa.me/2347079567577" target="_blank">+2347079567577</a></li>
+    <li>Instagram: <a href="https://instagram.com/dreamhomesrealty" target="_blank">@dreamhomesrealty</a></li>
+    <li>Telegram: <a href="https://t.me/dreamhomesrealty" target="_blank">@dreamhomesrealty</a></li>
+    <li>Phone: +234 707 956 7577</li>
+  </ul>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2026 DreamHomes Limited</p>
+</footer>
+
+</body>
+</html>
